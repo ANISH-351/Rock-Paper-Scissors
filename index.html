@@ -1,0 +1,30 @@
+<p>Cart Quantity</p>
+<button onclick="
+console.log(`quantity:${quantity}`)
+">quantity</button>
+
+<button onclick="
+console.log(`quantity:${quantity+=1}`)
+">add</button>
+
+<button onclick="
+console.log(`quantity:${quantity+=2}`)
+">+2</button>
+
+<button onclick="
+console.log(`quantity:${quantity+=3}`)
+">+3</button>
+
+<button onclick="
+console.log(`quantity:${quantity=0}`)
+">clear</button>
+
+<script>
+    var quantity = 0;
+
+</script>
+
+let score=JSON.parse(localStorage.getItem('score'));
+
+
+localStorage.setItem('score'JSON.stringify(score));
